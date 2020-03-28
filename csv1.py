@@ -114,7 +114,6 @@ with open(CSV_PATH, newline='') as csvfile:
 		print(row)
 		TourProduct.objects.create(
 			name = row['name'],
-            number = row['number'],
             category = row['category'],
             group = row['group'],
             duration = row['duration'],

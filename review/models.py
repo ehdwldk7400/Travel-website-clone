@@ -6,11 +6,12 @@ class Review(models.Model):
     account         = models.ForeignKey('account.Account', on_delete=models.CASCADE, null=True) 
     travel_objet    = models.ForeignKey('TravelObject', on_delete=models.CASCADE, null=True)
     age             = models.ForeignKey('Age', on_delete=models.CASCADE, null=True)
+    tour_product    = models.ForeignKey('product.TourProduct', on_delete=models.CASCADE, null=True)
     content         = models.TextField(null=True)
     rating          = models.DecimalField(max_digits=2, decimal_places=1, null=True)
     created_at      = models.DateTimeField(auto_now_add=True)
     updated_at      = models.DateTimeField(auto_now=True, null=True)
-    tour_product    = models.ManyToManyField('product.TourProduct', through='ReviewTourProduct', null=True)
+    # tour_product    = models.ManyToManyField('product.TourProduct', through='ReviewTourProduct', null=True)
 
     class Meta:
         db_table = 'reviews'
@@ -27,9 +28,9 @@ class Age(models.Model):
     class Meta:
         db_table = 'age'
 
-class ReviewTourProduct(models.Model):
-    review       = models.ForeignKey('Review', on_delete=models.SET_NULL, null=True)
-    tour_product = models.ForeignKey('product.TourProduct', on_delete=models.SET_NULL, null=True)
-
-    class Meta:
-        db_table = 'review_tourproduct'
+# class ReviewTourProduct(models.Model):
+    # review       = models.ForeignKey('Review', on_delete=models.SET_NULL, null=True)
+    # tour_product = models.ForeignKey('product.TourProduct', on_delete=models.SET_NULL, null=True)
+# 
+    # class Meta:
+        # db_table = 'review_tourproduct'
