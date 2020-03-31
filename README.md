@@ -44,5 +44,5 @@
 - 평균 평점 및 리뷰 수 데이터 반환
 
 # 데이터 모델링 ERD
-![데이터모델링](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fl3Dw8%2FbtqCuYzsUvM%2FqnzHvTa8MpM2UcBNmPiITK%2Fimg.png)
+![데이터모델링](https://k.kakaocdn.net/dn/t7KiO/btqC49Nnd0S/tVbuKLJOKkDsIg0zOLjR60/img.png)
 
