@@ -43,6 +43,9 @@
 - 수정 및 삭제 기능 지원
 - 평균 평점 및 리뷰 수 데이터 반환
 
+## API Document
+[API 문서 보기](https://documenter.getpostman.com/view/10398819/SzYW4LYU?version=latest)
+
 # 데이터 모델링 ERD
 ![데이터모델링](https://k.kakaocdn.net/dn/t7KiO/btqC49Nnd0S/tVbuKLJOKkDsIg0zOLjR60/img.png)
 
