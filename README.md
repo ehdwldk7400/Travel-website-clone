@@ -47,5 +47,5 @@
 [API 문서 보기](https://documenter.getpostman.com/view/10398819/SzYW4LYU?version=latest)
 
 # 데이터 모델링 ERD
-![데이터모델링](https://k.kakaocdn.net/dn/zBxIC/btqDf02CwaQ/rCG8klfkzKwOo6C0ZHKJKk/img.png)
+![데이터모델링](https://k.kakaocdn.net/dn/Pugbh/btqDce9AAo5/ln8mkFMaghOnfslPZ21gHk/img.png)
 
