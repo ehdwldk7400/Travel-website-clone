@@ -3,7 +3,7 @@
 
 # 개발 인원 및 기간
 - 개발기간 : 2020.02.23 ~ 2020.03.06
-- 개발인원 : 3 Front-End, 2 Back-End
+- 개발인원 : 3 Front-End, 1 Back-End
 
 ## 프론트엔드 github
 - https://github.com/wecode-bootcamp-korea/myfaketrip-frontend
